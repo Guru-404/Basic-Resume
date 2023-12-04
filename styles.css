@@ -20,10 +20,17 @@ body {
   font-size: 25px;
   color: black;
 }
+.header-navigation:hover {
+    font-weight: bold;
+}
+#header td {
+    width: 12.5%;
+    padding: 0;
+    margin: 0;
+}
 #banner {
-  width: 100%;
   background-color: black;
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
 }
 #banner h3 {
@@ -180,6 +187,11 @@ textarea {
     width: 100%;
     text-align: center;
     padding: 10px 0;
+}
+#footer td {
+    width: 20%;
+    padding: 0;
+    margin: 0;
 }
 #footer a {
     color: black;
