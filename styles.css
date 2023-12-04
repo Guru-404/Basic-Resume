@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#header {
+  border: 0;
+  width: 100%;
+  margin: 0;
+  padding: 15px;
+  background-color: #4caf50;
+  text-align: center;
+}
+#header-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.header-navigation {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+#banner {
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+#banner h3 {
+  color: #ffffff;
+}
+#banner h2 {
+  color: #4caf50;
+}
+#about {
+  width: 100%;
+  background-color: black;
+  padding: 0;
+}
+.dark-heading {
+    background-color: black;
+    color: #4caf50;
+}
+.light-heading {
+    background-color: #c2c0c3;
+    color: black;
+}
+.section-heading {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    margin: 0;
+    padding: 25px;
+}
+#profile-pic {
+    width: 75%;
+    height: auto;
+}
