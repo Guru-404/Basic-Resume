@@ -52,7 +52,115 @@ body {
     margin: 0;
     padding: 25px;
 }
-#profile-pic {
+#section-pic {
     width: 75%;
     height: auto;
+}
+.info-text {
+    color: white;
+}
+#about td:first-child {
+    text-align: center;
+    width: 40%;
+    padding: 15px;
+}
+#about td:last-child {
+    width: 60%;
+}
+#projects {
+    background-color: #c2c0c3;
+}
+#projects td:first-child {
+    width: 60%;
+}
+#projects td:last-child {
+    text-align: center;
+    width: 40%;
+    padding: 15px;
+}
+#projects-list {
+    margin: 0;
+    padding: 15px 125px;
+    font-size: 20px;
+    list-style-type: square;
+}
+#projects-list li {
+    margin-bottom: 10px;
+}
+#projects-list a {
+    color: black;
+    text-decoration: none;
+}
+#projects-list a:hover {
+    text-decoration: underline;
+}
+#achievements {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 15px 125px;
+    font-size: 20px;
+    list-style-type: upper-roman;
+}
+#achievements > li {
+    margin-bottom: 20px;
+}
+#contact {
+    background-color: #c2c0c3;
+    padding-bottom: 15px;
+}
+form {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 0;
+    background-color: black;
+    color: white;
+    font-size: 17.5px;
+}
+fieldset {
+    margin: 0px 15px 20px;
+}
+fieldset > legend {
+    font-size: 22.5px;
+}
+.input-box {
+    padding: 5px;
+    width: 50%;
+}
+.basic-label {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+}
+.basic-input-box {
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+    font-size: 15px;
+}
+.adv-label {
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+}
+select {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    font-size: 15px;
+}
+textarea {
+    padding: 10px;
+    font-size: 15px;
+}
+.form-button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.form-button[type="submit"]:hover {
+    background-color: green;
+}
+.form-button[type="reset"]:hover {
+    background-color: red;
 }
