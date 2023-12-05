@@ -190,6 +190,7 @@ fieldset > legend {
   display: inline-block;
   width: 35%;
   text-align: center;
+  color: white;
 }
 select {
   display: inline-block;
