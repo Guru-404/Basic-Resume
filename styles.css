@@ -21,12 +21,12 @@ body {
   color: black;
 }
 .header-navigation:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 #header td {
-    width: 12.5%;
-    padding: 0;
-    margin: 0;
+  width: 12.5%;
+  padding: 0;
+  margin: 0;
 }
 #banner {
   background-color: black;
@@ -40,9 +40,9 @@ body {
   color: #4caf50;
 }
 hr {
-    margin: 0;
-    padding: 0;
-    border: 2px solid white;
+  margin: 0;
+  padding: 0;
+  border: 2px solid white;
 }
 #about {
   width: 100%;
@@ -50,153 +50,189 @@ hr {
   padding: 0;
 }
 .dark-heading {
-    background-color: black;
-    color: #4caf50;
+  background-color: black;
+  color: #4caf50;
 }
 .light-heading {
-    background-color: #c2c0c3;
-    color: black;
+  background-color: #c2c0c3;
+  color: black;
 }
 .section-heading {
-    text-align: center;
-    font-size: 35px;
-    text-decoration: underline;
-    margin: 0;
-    padding: 25px;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+  margin: 0;
+  padding: 25px;
 }
 #section-pic {
-    width: 75%;
-    height: auto;
+  width: 75%;
+  height: auto;
 }
 .info-text {
-    color: white;
+  color: white;
 }
 #about td:first-child {
-    text-align: center;
-    width: 40%;
-    padding: 15px;
+  text-align: center;
+  width: 40%;
+  padding: 15px;
 }
 #about td:last-child {
-    width: 60%;
+  width: 60%;
 }
 #projects {
-    background-color: #c2c0c3;
+  background-color: #c2c0c3;
 }
 #projects td:first-child {
-    width: 60%;
+  width: 60%;
 }
 #projects td:last-child {
-    text-align: center;
-    width: 40%;
-    padding: 15px;
+  text-align: center;
+  width: 40%;
+  padding: 15px;
 }
 #projects-list {
-    margin: 0;
-    padding: 15px 125px;
-    font-size: 20px;
-    list-style-type: square;
+  margin: 0;
+  padding: 15px 125px;
+  font-size: 20px;
+  list-style-type: square;
 }
 #projects-list li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 #projects-list a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 #projects-list a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-#achievements {
-    background-color: black;
-    color: white;
-    margin: 0;
-    padding: 15px 125px;
-    font-size: 20px;
-    list-style-type: upper-roman;
+#goto-achievements {
+  background-color: black;
+  padding-bottom: 25px;
 }
-#achievements > li {
-    margin-bottom: 20px;
+#achievements td:first-child {
+  width: 40%;
+  text-align: center;
+  padding: 15px;
+}
+#achievements td:last-child {
+  width: 60%;
+}
+#achievements-list {
+  color: white;
+  margin: 0;
+  padding: 15px 125px;
+  font-size: 20px;
+  list-style-type: upper-roman;
+}
+#achievements-list > li {
+  margin-bottom: 20px;
+}
+#achievements-table {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 30%;
+  margin: 30px auto 0;
+}
+#achievements-table,
+#achievements-table th,
+#achievements-table td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+#achievements-table th,
+#achievements-table td {
+  padding: 10px;
+}
+#achievements-table tr:first-child {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+#achievements-table tr:nth-child(even) {
+  background-color: lightgray;
+  color: black;
 }
 #contact {
-    background-color: #c2c0c3;
-    padding-bottom: 25px;
+  background-color: #c2c0c3;
+  padding-bottom: 25px;
 }
 form {
-    width: 50%;
-    text-align: center;
-    margin: 0 auto 0;
-    background-color: black;
-    color: white;
-    font-size: 17.5px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto 0;
+  background-color: black;
+  color: white;
+  font-size: 17.5px;
 }
 fieldset {
-    margin: 0px 15px 20px;
+  margin: 0px 15px 20px;
 }
 fieldset > legend {
-    font-size: 22.5px;
+  font-size: 22.5px;
 }
 .input-box {
-    padding: 5px;
-    width: 50%;
+  padding: 5px;
+  width: 50%;
 }
 .basic-label {
-    display: inline-block;
-    width: 20%;
-    text-align: left;
+  display: inline-block;
+  width: 20%;
+  text-align: left;
 }
 .basic-input-box {
-    display: inline-block;
-    width: 70%;
-    padding: 10px;
-    font-size: 15px;
+  display: inline-block;
+  width: 70%;
+  padding: 10px;
+  font-size: 15px;
 }
 .adv-label {
-    display: inline-block;
-    width: 35%;
-    text-align: center;
+  display: inline-block;
+  width: 35%;
+  text-align: center;
 }
 select {
-    display: inline-block;
-    width: 50%;
-    padding: 10px;
-    font-size: 15px;
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+  font-size: 15px;
 }
 textarea {
-    padding: 10px;
-    font-size: 15px;
+  padding: 10px;
+  font-size: 15px;
 }
 .form-button {
-    padding: 10px 20px;
-    font-size: 15px;
-    font-weight: bold;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
 }
 .form-button[type="submit"]:hover {
-    background-color: green;
+  background-color: green;
 }
 .form-button[type="reset"]:hover {
-    background-color: red;
+  background-color: red;
 }
 #copyright {
-    background-color: black;
-    color: #4caf50;
-    padding: 10px;
-    font-size: medium;
+  background-color: black;
+  color: #4caf50;
+  padding: 10px;
+  font-size: medium;
 }
 #footer {
-    background-color: #4caf50;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
+  background-color: #4caf50;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
 }
 #footer td {
-    width: 20%;
-    padding: 0;
-    margin: 0;
+  width: 20%;
+  padding: 0;
+  margin: 0;
 }
 #footer a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 #footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
