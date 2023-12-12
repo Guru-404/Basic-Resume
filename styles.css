@@ -68,9 +68,6 @@ hr {
   width: 75%;
   height: auto;
 }
-.info-text {
-  color: white;
-}
 #about td:first-child {
   text-align: center;
   width: 40%;
@@ -78,6 +75,10 @@ hr {
 }
 #about td:last-child {
   width: 60%;
+}
+.info-text {
+  color: white;
+  padding-right: 35px;
 }
 #projects {
   background-color: #c2c0c3;
